@@ -40,41 +40,40 @@
 28-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:14:9-54
 29        android:supportsRtl="true"
 29-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:15:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.ObjectDetection" >
-31-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:16:9-53
-32        <activity android:name="org.tensorflow.codelabs.objectdetection.MainActivity" >
-32-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:17:9-23:20
-32-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:17:19-86
-33            <intent-filter>
-33-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:18:13-22:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:19:17-69
-34-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:19:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:21:17-77
-36-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:21:27-74
-37            </intent-filter>
-38        </activity>
-39
-40        <provider
-40-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:25:9-33:20
-41            android:name="androidx.core.content.FileProvider"
-41-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:26:13-62
-42            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
-42-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:27:13-87
-43            android:exported="false"
-43-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:28:13-37
-44            android:grantUriPermissions="true" >
-44-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:29:13-47
-45            <meta-data
-45-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:30:13-32:54
-46                android:name="android.support.FILE_PROVIDER_PATHS"
-46-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:31:17-67
-47                android:resource="@xml/file_paths" />
-47-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:32:17-51
-48        </provider>
-49    </application>
-50
-51</manifest>
+30        android:theme="@style/Theme.ObjectDetection" >
+30-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:16:9-53
+31        <activity android:name="org.tensorflow.codelabs.objectdetection.MainActivity" >
+31-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:17:9-23:20
+31-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:17:19-86
+32            <intent-filter>
+32-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:19:17-69
+33-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:21:17-77
+35-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:25:9-33:20
+40            android:name="androidx.core.content.FileProvider"
+40-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:26:13-62
+41            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
+41-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:27:13-87
+42            android:exported="false"
+42-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:28:13-37
+43            android:grantUriPermissions="true" >
+43-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:29:13-47
+44            <meta-data
+44-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:30:13-32:54
+45                android:name="android.support.FILE_PROVIDER_PATHS"
+45-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:31:17-67
+46                android:resource="@xml/file_paths" />
+46-->C:\Users\laith\AndroidStudioProjects\starter\app\src\main\AndroidManifest.xml:32:17-51
+47        </provider>
+48    </application>
+49
+50</manifest>

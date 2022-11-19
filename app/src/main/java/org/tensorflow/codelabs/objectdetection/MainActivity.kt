@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             .build()
         val detector = ObjectDetector.createFromFileAndOptions(
             this, // the application context
-            "carDmg.tflite", // must be same as the filename in assets folder
+            "model.tflite", // must be same as the filename in assets folder
             options
         )
 
