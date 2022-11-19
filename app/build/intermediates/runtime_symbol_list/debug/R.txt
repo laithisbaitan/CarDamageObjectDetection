@@ -1649,6 +1649,7 @@ int drawable ic_mtrl_checked_circle 0x7f070072
 int drawable ic_mtrl_chip_checked_black 0x7f070073
 int drawable ic_mtrl_chip_checked_circle 0x7f070074
 int drawable ic_mtrl_chip_close_circle 0x7f070075
+int drawable img_car_one 0x7f07009c
 int drawable img_meal_one 0x7f070076
 int drawable img_meal_three 0x7f070077
 int drawable img_meal_two 0x7f070078

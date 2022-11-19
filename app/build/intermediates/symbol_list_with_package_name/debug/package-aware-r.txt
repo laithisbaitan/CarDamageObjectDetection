@@ -1650,6 +1650,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable img_car_one
 drawable img_meal_one
 drawable img_meal_three
 drawable img_meal_two

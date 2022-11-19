@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
             R.id.imgSampleOne -> {
-                setViewAndDetect(getSampleImage(R.drawable.img_meal_one))
+                setViewAndDetect(getSampleImage(R.drawable.img_car_one))
             }
             R.id.imgSampleTwo -> {
                 setViewAndDetect(getSampleImage(R.drawable.img_meal_two))
@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             .build()
         val detector = ObjectDetector.createFromFileAndOptions(
             this, // the application context
-            "salad.tflite", // must be same as the filename in assets folder
+            "carDmg.tflite", // must be same as the filename in assets folder
             options
         )
 
@@ -135,6 +135,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val results = detector.detect(image)
 
         // Step 4: Parse the detection result and show it
+//        debugPrint(results)
+
         val resultToDisplay = results.map {
             // Get the top-1 category and craft the display text
             val category = it.categories.first()
