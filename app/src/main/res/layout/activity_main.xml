@@ -54,7 +54,7 @@
             android:adjustViewBounds="true"
             android:contentDescription="@null"
             android:scaleType="centerCrop"
-            android:src="@drawable/img_meal_one" />
+            android:src="@drawable/img_car_one" />
 
         <ImageView
             android:id="@+id/imgSampleTwo"
